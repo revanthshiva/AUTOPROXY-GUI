@@ -1,6 +1,6 @@
 import os
 import time
-import pyfiglet
+
 import tkinter as tk
 from tkinter import *
 from tkinter import simpledialog  
@@ -13,10 +13,10 @@ int_USERINP =int(USERINP)
 
 
 print("Your IP will change every" ,int_USERINP, "seconds")
-os.system("bash /usr/local/bin/support.sh -t")
+os.system("sudo bash /usr/local/bin/support.sh -t")
 time.sleep(int_USERINP)
 while True :
-   os.system("bash /usr/local/bin/support.sh -r")
+   os.system("sudo bash /usr/local/bin/support.sh -r")
    time.sleep(int_USERINP)
 root.mainloop()
    
