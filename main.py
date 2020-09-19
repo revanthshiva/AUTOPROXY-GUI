@@ -10,29 +10,29 @@ os.system("service tor start")
 def callback():
     webbrowser.open_new("https://www.youtube.com/channel/UCuafVcvdTEir2jaXW8hhaoQ") 
 def start_proxy():
-    os.system("xterm -geometry 93x31+1400+900 -bg black -fg white   -e python3 /usr/local/bin/run.py &")
+    os.system("sudo xterm -geometry 93x31+1400+900 -bg black -fg white   -e python3 /usr/local/bin/run.py &")
     
 def stop_proxy():
-    os.system("killall xterm")
-    os.system("service tor stop")
-    os.system("bash /usr/local/bin/support.sh -c")
-    os.system("rm -rf /etc/resolv.conf")
-    os.system("cp /usr/local/bin/resolv.conf /etc/resolv.conf;exit")
+    os.system("sudo killall xterm")
+    os.system("sudo service tor stop")
+    os.system("sudo bash /usr/local/bin/support.sh -c")
+    os.system("sudo rm -rf /etc/resolv.conf")
+    os.system("sudo cp /usr/local/bin/resolv.conf /etc/resolv.conf;exit")
 def restart_proxy():
-    os.system("killall xterm")
-    os.system("service tor stop")
-    os.system("bash /usr/local/bin/support.sh -c")
-    os.system("rm -rf /etc/resolv.conf")
-    os.system("cp /usr/local/bin/resolv.conf /etc/resolv.conf;exit")
-    os.system("xterm -geometry 93x31+1400+900 -bg black -fg white   -e python3 /usr/local/bin/run.py &")
+    os.system("sudo killall xterm")
+    os.system("sudo service tor stop")
+    os.system("sudo bash /usr/local/bin/support.sh -c")
+    os.system("sudo rm -rf /etc/resolv.conf")
+    os.system("sudo cp /usr/local/bin/resolv.conf /etc/resolv.conf;exit")
+    os.system("sudo xterm -geometry 93x31+1400+900 -bg black -fg white   -e python3 /usr/local/bin/run.py &")
     
     
 def exit_proxy():
-    os.system("killall xterm")
-    os.system("service tor stop")
-    os.system("bash /usr/local/bin/support.sh -c")
-    os.system("rm -rf /etc/resolv.conf")
-    os.system("cp /usr/local/bin/resolv.conf /etc/resolv.conf;exit")
+    os.system("sudo killall xterm")
+    os.system("sudo service tor stop")
+    os.system("sudo bash /usr/local/bin/support.sh -c")
+    os.system("sudo rm -rf /etc/resolv.conf")
+    os.system("sudo cp /usr/local/bin/resolv.conf /etc/resolv.conf;exit")
     
     exit()
     
