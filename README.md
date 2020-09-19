@@ -14,3 +14,5 @@ Automatic Chain proxy in given time period Using GUI
 
 
 <img src="screenshot/Screenshot from 2020-09-20 02-00-56.png">
+<img src="screenshot/Screenshot from 2020-09-20 02-01-08.png">
+<img src="screenshot/Screenshot from 2020-09-20 02-01-29.png">
