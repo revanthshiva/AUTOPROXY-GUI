@@ -1,4 +1,4 @@
 
 
-python3 /usr/local/bin/main.py
+sudo python3 /usr/local/bin/main.py
 
