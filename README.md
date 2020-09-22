@@ -1,5 +1,5 @@
 # AUTOPROXY-GUI
-Automatic Chain proxy in given time period Using GUI 
+Automatic Change your ip location in the given time period Using GUI 
 
 
 #INSTALL
